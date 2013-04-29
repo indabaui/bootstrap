@@ -8,7 +8,7 @@
   "development": {},
   "license": "MIT",
   "files": [
-    "out/cyborg.css",
-    "out/cosmo.css"
+    "css/cyborg.css",
+    "css/cosmo.css"
   ]
 }

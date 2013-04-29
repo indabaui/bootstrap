@@ -1,9 +1,9 @@
 build: 
-	lessc cyborg/cyborg.less out/cyborg.css --include-path=bootstrap
-	lessc cosmo/cosmo.less out/cosmo.css --include-path=bootstrap
+	lessc cyborg/cyborg.less css/cyborg.css --include-path=bootstrap
+	lessc cosmo/cosmo.less css/cosmo.css --include-path=bootstrap
 
 clean:
-	rm -rf out
+	rm -rf css
 
 updateBootstrap:
 	git clone git://github.com/twitter/bootstrap.git tmp-bootstrap-repo
