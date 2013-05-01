@@ -14,5 +14,9 @@
     "font/avant_garde_medium.eot",
     "font/avant_garde_medium.otf",
     "font/avant_garde_medium.ttf"
+  ],
+  "images": [
+    "img/glyphicons-halflings.png",
+    "img/glyphicons-halflings-white.png"
   ]
 }
