@@ -1,14 +1,13 @@
 {
   "name": "themes",
   "repo": "indabaui/themes",
-  "description": "Bootstrap variations",
+  "description": "Bootstrap",
   "version": "0.0.1",
   "keywords": [],
   "dependencies": {},
   "development": {},
   "license": "MIT",
-  "files": [
-    "css/cyborg.css",
-    "css/cosmo.css"
+  "styles": [
+    "out.css"
   ]
 }
