@@ -52,6 +52,7 @@
   // Vertically center the text given @navbarHeight
   padding: ((@navbarHeight - @baseLineHeight) / 2) 20px ((@navbarHeight - @baseLineHeight) / 2);
   margin-left: -20px; // negative indent to left-align the text down the page
+  font-family: @accentFontFamily;
   font-size: 20px;
   font-weight: 200;
   color: @navbarBrandColor;
@@ -65,6 +66,7 @@
 // Plain text in topbar
 // -------------------------
 .navbar-text {
+  font-family: @accentFontFamily;
   margin-bottom: 0;
   line-height: @navbarHeight;
   color: @navbarText;
@@ -73,6 +75,7 @@
 // Janky solution for now to account for links outside the .nav
 // -------------------------
 .navbar-link {
+  font-family: @accentFontFamily;
   color: @navbarLinkColor;
   &:hover,
   &:focus {
@@ -235,6 +238,7 @@
   margin-right: 0; // remove margin on float right nav
 }
 .navbar .nav > li {
+  font-family: @accentFontFamily;
   float: left;
 }
 

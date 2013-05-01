@@ -9,5 +9,10 @@
   "license": "MIT",
   "styles": [
     "out.css"
+  ],
+  "fonts": [
+    "font/avant_garde_medium.eot",
+    "font/avant_garde_medium.otf",
+    "font/avant_garde_medium.ttf"
   ]
 }
