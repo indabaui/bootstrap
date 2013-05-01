@@ -35,12 +35,12 @@
 
 <!-- Masthead
 ================================================== -->
-<header class="hero-unit subhead" id="overview">
+<div class="hero-unit subhead" id="overview">
   <h1>
     <a href="http://github.com/indabaui/bootstrap">Bootstrap</a>
   </h1>
   <p class="lead">The Indaba-ized version of Twitter's Bootstrap.</p>
-</header>
+</div>
 
 
 
@@ -225,8 +225,8 @@
         <th>Large Button</th>
         <th>Small Button</th>
         <th>Disabled Button</th>
-    <th>Button with Icon</th>
-    <th>Split Button</th>
+        <th>Button with Icon</th>
+        <th>Split Button</th>
       </tr>
     </thead>
     <tbody>
@@ -387,13 +387,15 @@
     <div class="span10 offset1">
 
       <form class="well form-search">
-        <input type="text" class="input-medium search-query">
-        <button type="submit" class="btn">Search</button>
+        <div class="input-append">
+          <input type="text" class="input-xlarge search-query">
+          <button type="submit" class="btn">Search</button>
+        </div>
       </form>
 
         <form class="well form-search">
-          <input type="text" class="input-small" placeholder="Email">
-          <input type="password" class="input-small" placeholder="Password">
+          <input type="text" class="input-large" placeholder="Email">
+          <input type="password" class="input-large" placeholder="Password">
           <button type="submit" class="btn">Go</button>
         </form>
 
