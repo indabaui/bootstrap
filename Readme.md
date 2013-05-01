@@ -3,11 +3,6 @@
 Install:
 
 ```
-component install indabaui/themes
+component install indabaui/bootstrap
 ```
 
-Add one of the themes to your html file:
-
-```
-<link rel="stylesheet" href="/indabaui-themes/css/cyborg.css">
-```
