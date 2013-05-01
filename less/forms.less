@@ -25,9 +25,9 @@ legend {
   margin-bottom: @baseLineHeight;
   font-size: @baseFontSize * 1.5;
   line-height: @baseLineHeight * 2;
-  color: @grayDark;
+  color: @textColor;
   border: 0;
-  border-bottom: 1px solid #e5e5e5;
+  border-bottom: 1px solid @textColor;
 
   // Small
   small {
@@ -388,7 +388,7 @@ select:focus:invalid {
   margin-top: @baseLineHeight;
   margin-bottom: @baseLineHeight;
   background-color: @formActionsBackground;
-  border-top: 1px solid #e5e5e5;
+  border-top: 1px solid lighten(@formActionsBackground, 10%);
   .clearfix(); // Adding clearfix to allow for .pull-right button containers
 }
 

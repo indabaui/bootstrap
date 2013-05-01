@@ -15,6 +15,14 @@ body {
   background-color: @bodyBackground;
 }
 
+body.indaba-striped {
+	background-size: 2px;
+	background-image: -webkit-linear-gradient(0,    transparent 20%, fadeout(lighten(@bodyBackground, 2%), 10%) 50%);
+	background-image: -moz-linear-gradient(0px 50%, transparent 20%, fadeout(lighten(@bodyBackground, 2%), 10%) 50%);
+	background-image: -ms-linear-gradient(0,        transparent 20%, fadeout(lighten(@bodyBackground, 2%), 10%) 50%);
+	background-image: -o-linear-gradient(0,         transparent 20%, fadeout(lighten(@bodyBackground, 2%), 10%) 50%);
+}
+
 
 // Links
 // -------------------------
