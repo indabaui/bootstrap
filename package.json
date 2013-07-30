@@ -1,21 +1,15 @@
 {
-    "name": "bootstrap"
-  , "description": "Sleek, intuitive, and powerful front-end framework for faster and easier web development."
+    "name": "indaba bootstrap"
+  , "description": "Sleek, intuitive, and powerful front-end framework for faster and easier web development (for Indaba)."
   , "version": "3.0.0"
-  , "keywords": ["bootstrap", "css"]
-  , "homepage": "http://twbs.github.com/bootstrap/"
-  , "author": "Twitter Inc."
+  , "keywords": ["bootstrap", "css", "indabaui"]
+  , "homepage": "https://github.com/indabaui/bootstrap"
+  , "author": "Indaba via Twitter Inc."
   , "scripts": { "test": "grunt test" }
   , "repository": {
       "type": "git"
-    , "url": "https://github.com/twbs/bootstrap.git"
+    , "url": "https://github.com/indabaui/bootstrap.git"
   }
-  , "licenses": [
-    {
-        "type": "Apache-2.0"
-      , "url": "http://www.apache.org/licenses/LICENSE-2.0"
-    }
-  ]
   , "devDependencies": {
       "chokidar": "~0.4.0"
     , "grunt": "~0.4.1"
