@@ -8,7 +8,12 @@
   "development": {},
   "license": "MIT",
   "styles": [
-    "out.css"
+    "dist/css/bootstrap.css"
+  ],
+  "scripts" : [
+    "assets/js/html5shiv.js",
+    "assets/js/respond.min.js",
+    "dist/js/bootstrap.js"
   ],
   "fonts": [
     "font/avant_garde_medium.eot",
