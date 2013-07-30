@@ -17,12 +17,12 @@
   ],
   "main": "dist/js/bootstrap.js",
   "fonts": [
-    "font/avant_garde_medium.eot",
-    "font/avant_garde_medium.otf",
-    "font/avant_garde_medium.ttf"
+    "assets/font/avant_garde_medium.eot",
+    "assets/font/avant_garde_medium.otf",
+    "assets/font/avant_garde_medium.ttf"
   ],
   "images": [
-    "img/glyphicons-halflings.png",
-    "img/glyphicons-halflings-white.png"
+    "assets/img/glyphicons-halflings.png",
+    "assets/img/glyphicons-halflings-white.png"
   ]
 }
