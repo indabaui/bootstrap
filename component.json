@@ -2,7 +2,7 @@
   "name": "themes",
   "repo": "indabaui/bootstrap",
   "description": "Bootstrap",
-  "version": "0.0.1",
+  "version": "3.0.3",
   "keywords": [],
   "dependencies": {},
   "development": {},
@@ -17,12 +17,9 @@
   ],
   "main": "dist/js/bootstrap.js",
   "fonts": [
-    "assets/font/avant_garde_medium.eot",
-    "assets/font/avant_garde_medium.otf",
-    "assets/font/avant_garde_medium.ttf"
-  ],
-  "images": [
-    "assets/img/glyphicons-halflings.png",
-    "assets/img/glyphicons-halflings-white.png"
+    "dist/fonts/glyphicons-halflings-regular.eot",
+    "dist/fonts/glyphicons-halflings-regular.svg",
+    "dist/fonts/glyphicons-halflings-regular.ttf",
+    "dist/fonts/glyphicons-halflings-regular.woff"
   ]
 }

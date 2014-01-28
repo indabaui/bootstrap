@@ -1,7 +1,7 @@
 {
     "name": "bootstrap"
   , "description": "Sleek, intuitive, and powerful front-end framework for faster and easier web development (for Indaba)."
-  , "version": "3.0.0"
+  , "version": "3.0.3"
   , "keywords": ["bootstrap", "css", "indabaui"]
   , "homepage": "https://github.com/indabaui/bootstrap"
   , "author": "Indaba via Twitter Inc."
